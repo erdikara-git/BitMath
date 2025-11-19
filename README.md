@@ -9,9 +9,9 @@ BitMath is a simple mobile app designed to help users practice basic math operat
    Mode 2. Choose the correct result from four options  
 
 • Three difficulty levels  
-   Easy  
-   Medium  
+   Normal
    Hard  
+   Extreme  
 
 • Multilingual interface  
    German  
