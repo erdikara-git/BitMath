@@ -41,9 +41,7 @@ BitMath is a simple mobile app designed to help users practice basic math operat
 
 You can download the latest APK here.
 
-[Download BitMath APK](https://github.com/erdikara-git/BitMath/releases/download/VERSION/DATEINAME.apk)
-
-Replace VERSION and DATEINAME with the values from your release.
+[Download BitMath APK](https://github.com/erdikara-git/BitMath/releases/download/v1.0.0/BitMath_1.0.apk)
 
 ## How it works
 
@@ -53,9 +51,7 @@ BitMath generates random math tasks. Depending on the selected mode you either e
 
 • Android  
 • Java  
-• Sketchware based project structure
 
 ## Status
 
 The app is under active development. More features and UI improvements will follow.
-
