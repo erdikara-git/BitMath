@@ -789,15 +789,15 @@ public class MainActivity extends AppCompatActivity {
 			languages.edit().putString("language", "english").commit();
 		}
 		if (languages.getString("language", "").equals("english")) {
-			htmltext = "<h2>\n<br>\nImpressum – Legal Disclosure\n</br>\n</h2>\n<br>\nErdi Karasungur\n<br>\nBieberer Stra&szlig;e 52 (1)\n</br>\n<br>\n63065 Offenbach am Main\n</br>\n\n<h2>\n<br>\nContact\n</br>\n</h2>";
+			htmltext = "<h2>\n<br>\nImpressum – Legal Disclosure\n</br>\n</h2>\n<br>\nE. K.\n<br>\nGermany\n</br>\n\n<h2>\n<br>\nContact\n</br>\n</h2>";
 		}
 		if (languages.getString("language", "").equals("deutsch")) {
-			htmltext = "<h2>\n<br>\nAngaben gem&auml;&szlig; &sect; 5 TMG\n</br>\n</h2>\n<br>\nErdi Karasungur\n<br>\nBieberer Stra&szlig;e 52 (1)\n</br>\n<br>\n63065 Offenbach am Main\n</br>\n\n<h2>\n<br>\nKontakt\n</br>\n</h2>";
+			htmltext = "<h2>\n<br>\nAngaben gem&auml;&szlig; &sect; 5 TMG\n</br>\n</h2>\n<br>\nE. K.\n<br>\nGermany\n</br>\n\n<h2>\n<br>\nKontakt\n</br>\n</h2>";
 		}
 		if (languages.getString("language", "").equals("türkçe")) {
-			htmltext = "<h2>\n<br>\nKünye\n</br>\n</h2>\n<br>\nErdi Karasungur\n<br>\nBieberer Stra&szlig;e 52 (1)\n</br>\n<br>\n63065 Offenbach am Main\n</br>\n\n<h2>\n<br>\nİletişime geçin\n</br>\n</h2>";
+			htmltext = "<h2>\n<br>\nKünye\n</br>\n</h2>\n<br>\nE. K.\n<br>\nGermany\n</br>\n\n<h2>\n<br>\nİletişime geçin\n</br>\n</h2>";
 		}
-		htmltext2 = "<a href=\"mailto:infoerdikara@gmail.com\">\ninfoerdikara@gmail.com\n</a>";
+		htmltext2 = "<a href=\"mailto:bitmath@gmail.com\">\nbitmath@gmail.com\n</a>";
 		final AlertDialog db4 = new AlertDialog.Builder(MainActivity.this).create();
 						LayoutInflater inflater = getLayoutInflater();
 		View convertView = (View) inflater.inflate(R.layout.impressum, null);
@@ -848,7 +848,7 @@ public class MainActivity extends AppCompatActivity {
 		textview3.setOnClickListener(new View.OnClickListener() {
 							@Override
 							public void onClick(View _view) {
-				Intent selectorIntent = new Intent(Intent.ACTION_SENDTO); selectorIntent.setData(Uri.parse("mailto:infoerdikara@gmail.com")); final Intent emailIntent = new Intent(Intent.ACTION_SEND); emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"infoerdikara@gmail.com"}); emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Bitmath"); emailIntent.setSelector( selectorIntent ); startActivity(emailIntent);
+				Intent selectorIntent = new Intent(Intent.ACTION_SENDTO); selectorIntent.setData(Uri.parse("mailto:bitmath@gmail.com")); final Intent emailIntent = new Intent(Intent.ACTION_SEND); emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"bitmath@gmail.com"}); emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Bitmath"); emailIntent.setSelector( selectorIntent ); startActivity(emailIntent);
 							}
 				});
 		
